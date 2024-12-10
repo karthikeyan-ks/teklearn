@@ -80,11 +80,11 @@ WSGI_APPLICATION = 'api.wsgi.app'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'teklearn',
-        'USER': 'teklearn',
-        'PASSWORD': 'teklearn@123!',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': 'teklearn',  # Database name from the URL
+        'USER': 'teklearn',  # Username from the URL
+        'PASSWORD': 'hXCy2wXZsn4jHqO7SQCTKxFec0RrEi4u',  # Password from the URL
+        'HOST': 'dpg-ctc9d35umphs73b33hdg-a',  # Host from the URL
+        'PORT': '5432',  # PostgreSQL default port
     }
 }
 
