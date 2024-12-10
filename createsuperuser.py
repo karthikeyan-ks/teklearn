@@ -1,3 +1,12 @@
+import os
+import django
+
+# Set the settings module explicitly
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'teklearn.settings')
+
+# Initialize Django
+django.setup()
+
 from django.contrib.auth.models import User
 
 def create_superuser():
